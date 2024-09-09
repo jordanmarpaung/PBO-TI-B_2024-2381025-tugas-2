@@ -4,22 +4,21 @@ public class UnaryOperator {
         int y =-5;
         boolean isTrue = true;
         //Increment
-        System.out.println("x awal: "+ x);
-        System.out.println(" ++x : " + ++x); // pre- increment
-        System.out.println(" x++: "x++);// post- increment
-        System.out.println(" akhir: "+ x);
+        System.out.println("x awal: "  + x);
+        System.out.println("++x: " + ++x); // pre- increment
+        System.out.println("x++: " + x++);// post- increment
+        System.out.println("x akhir: "+ x);
         //decrement
-        System.out.println("x awal: "+ x);
-        System.out.println(" ++x: "+ --x);
-        System.out.println(" x++: "+ x--);
-        System.out.println(" akhir: "+ x);
+        System.out.println("x awal: " + x);
+        System.out.println(" ++x: " + --x); // Pre decrement
+        System.out.println(" x++: " + x--); // Post decrement
+        System.out.println("x akhir: " + x);
+
         // Unaryplus dan minus
         System.out.println("+x : " + x);
         System.out.println("-y : " + -y);
-        // logical unit
+
+        // logical Not
         System.out.println("!isTrue : " + !isTrue);
-
-
-
     }
 }

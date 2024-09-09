@@ -3,11 +3,11 @@ import java.util.Scanner;
 
 public class IfStatemant {
     public static void main(String[] args) {
-        Scanner input = new Scanner( System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Masukan nomor hari (1 - 7): ");
         int nomorHari = input.nextInt();
-        String namaHari = "";
 
+        String namaHari = "";
         if (nomorHari == 1) {
             namaHari = "Minggu";
         } else if (nomorHari == 2) {
